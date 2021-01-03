@@ -1,4 +1,4 @@
-update=02/01/2021 07:19:36
+update=03/01/2021 09:03:32
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -31,9 +41,10 @@ MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.25
 TrackWidth3=0.3
-TrackWidth4=0.4
-TrackWidth5=0.5
-TrackWidth6=1
+TrackWidth4=0.35
+TrackWidth5=0.4
+TrackWidth6=0.5
+TrackWidth7=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=1
@@ -73,12 +84,12 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
-Type=0
+Name=In1.Cu_+5V
+Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
-Type=0
+Name=In2.Cu_GND
+Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu

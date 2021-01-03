@@ -14,4 +14,5 @@
   (lib (name josh-passive)(type Legacy)(uri C:/Users/osku2/Desktop/Source/OsseyPad/libs/josh-kicad-lib/josh-passive.lib)(options "")(descr ""))
   (lib (name josh-power)(type Legacy)(uri C:/Users/osku2/Desktop/Source/OsseyPad/libs/josh-kicad-lib/josh-power.lib)(options "")(descr ""))
   (lib (name josh-rf)(type Legacy)(uri C:/Users/osku2/Desktop/Source/OsseyPad/libs/josh-kicad-lib/josh-rf.lib)(options "")(descr ""))
+  (lib (name Hello_to_horse)(type Legacy)(uri "C:/Users/osku2/Desktop/Source/OsseyPad/libs/OsseyPad/Hello to horse.lib")(options "")(descr ""))
 )
