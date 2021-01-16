@@ -20,4 +20,5 @@
   (lib (name josh-rf)(type KiCad)(uri C:/Users/osku2/Desktop/Source/OsseyPad/libs/josh-kicad-lib/josh-rf.pretty)(options "")(descr ""))
   (lib (name josh-soic-sot-etc)(type KiCad)(uri C:/Users/osku2/Desktop/Source/OsseyPad/libs/josh-kicad-lib/josh-soic-sot-etc.pretty)(options "")(descr ""))
   (lib (name josh-test-point)(type KiCad)(uri C:/Users/osku2/Desktop/Source/OsseyPad/libs/josh-kicad-lib/josh-test-point.pretty)(options "")(descr ""))
+  (lib (name JAE_USB_C)(type KiCad)(uri C:/Users/osku2/Desktop/Source/OsseyPad/libs/JAE_USB_C.pretty)(options "")(descr ""))
 )
