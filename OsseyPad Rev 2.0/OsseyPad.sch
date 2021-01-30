@@ -76,28 +76,6 @@ F 3 "" H 950 10750 50  0001 C CNN
 	1    950  10750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR01
-U 1 1 60482C76
-P 3350 1200
-F 0 "#PWR01" H 3350 1050 50  0001 C CNN
-F 1 "+5V" H 3365 1373 50  0000 C CNN
-F 2 "" H 3350 1200 50  0001 C CNN
-F 3 "" H 3350 1200 50  0001 C CNN
-	1    3350 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR02
-U 1 1 60473220
-P 3600 1200
-F 0 "#PWR02" H 3600 1050 50  0001 C CNN
-F 1 "+5V" H 3615 1373 50  0000 C CNN
-F 2 "" H 3600 1200 50  0001 C CNN
-F 3 "" H 3600 1200 50  0001 C CNN
-	1    3600 1200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 1250 3350 1200
 Wire Wire Line
@@ -149,8 +127,8 @@ L Device:C_Small C1
 U 1 1 6006944A
 P 2450 1900
 F 0 "C1" H 2542 1946 50  0000 L CNN
-F 1 "100n" H 2542 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2450 1900 50  0001 C CNN
+F 1 "0.1 uf" H 2542 1855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 2450 1900 50  0001 C CNN
 F 3 "~" H 2450 1900 50  0001 C CNN
 	1    2450 1900
 	1    0    0    -1  
@@ -160,8 +138,8 @@ L Device:C_Small C2
 U 1 1 600670A6
 P 2850 1900
 F 0 "C2" H 2942 1946 50  0000 L CNN
-F 1 "100n" H 2942 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2850 1900 50  0001 C CNN
+F 1 "0.1 uf" H 2942 1855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 2850 1900 50  0001 C CNN
 F 3 "~" H 2850 1900 50  0001 C CNN
 	1    2850 1900
 	1    0    0    -1  
@@ -172,7 +150,7 @@ U 1 1 60049E0C
 P 3100 1700
 F 0 "R4" V 3100 1700 50  0000 C CNN
 F 1 "10K" V 3000 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3100 1700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3100 1700 50  0001 C CNN
 F 3 "~" H 3100 1700 50  0001 C CNN
 	1    3100 1700
 	0    1    1    0   
@@ -195,7 +173,7 @@ U 1 1 60002259
 P 3100 1500
 F 0 "R3" V 3100 1500 50  0000 C CNN
 F 1 "10K" V 2995 1500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3100 1500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3100 1500 50  0001 C CNN
 F 3 "~" H 3100 1500 50  0001 C CNN
 	1    3100 1500
 	0    1    1    0   
@@ -208,7 +186,7 @@ U 1 1 5FFD944D
 P 3600 1350
 F 0 "R2" H 3659 1396 50  0000 L CNN
 F 1 "10K" H 3659 1305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3600 1350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3600 1350 50  0001 C CNN
 F 3 "~" H 3600 1350 50  0001 C CNN
 	1    3600 1350
 	1    0    0    -1  
@@ -219,7 +197,7 @@ U 1 1 5FFBD2EE
 P 3350 1350
 F 0 "R1" H 3409 1396 50  0000 L CNN
 F 1 "10K" H 3409 1305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3350 1350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3350 1350 50  0001 C CNN
 F 3 "~" H 3350 1350 50  0001 C CNN
 	1    3350 1350
 	1    0    0    -1  
@@ -263,11 +241,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 3100 4300 3700
 Connection ~ 4300 3100
-Wire Wire Line
-	4050 3100 4250 3100
 Connection ~ 4300 4300
-Wire Wire Line
-	4050 4300 4250 4300
 Wire Wire Line
 	4050 5500 4300 5500
 Wire Wire Line
@@ -1349,7 +1323,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2900 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4050 3700 4300 3700
+	4050 3700 4250 3700
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX15
 U 1 1 602FC54A
@@ -1416,7 +1390,7 @@ F 3 "" H 3275 6375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4050 6550 2    50   Input ~ 0
-ROW3+
+ROW4+
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX37
 U 1 1 60378A22
@@ -1478,9 +1452,9 @@ Wire Wire Line
 Wire Wire Line
 	3850 7050 4050 7050
 Text GLabel 4050 6350 2    50   Input ~ 0
-COL3+
+COL1+
 Text GLabel 4050 6850 2    50   Input ~ 0
-COL3ENTER
+COL4ENTER
 Text GLabel 2350 7400 2    50   Input ~ 0
 COL10
 Wire Wire Line
@@ -1494,31 +1468,14 @@ Wire Wire Line
 Wire Wire Line
 	2200 5800 2200 5700
 Connection ~ 2200 5700
-Text GLabel 3800 3400 1    28   Input ~ 0
-ROW3+
-Text GLabel 4150 3050 0    28   Input ~ 0
-COL3+
-Text GLabel 3800 4550 1    28   Input ~ 0
+Text GLabel 3800 3950 1    28   Input ~ 0
+ROW4+
+Text GLabel 4200 3650 0    28   Input ~ 0
+COL1+
+Text GLabel 3800 5200 1    28   Input ~ 0
 ROW3ENTER
-Text GLabel 4250 4250 0    28   Input ~ 0
-COL3ENTER
-Wire Wire Line
-	4250 4250 4250 4300
-Connection ~ 4250 4300
-Wire Wire Line
-	4250 4300 4300 4300
-Wire Wire Line
-	3850 4500 3850 4550
-Wire Wire Line
-	3850 4550 3800 4550
-Connection ~ 3850 4500
-Wire Wire Line
-	4150 3050 4250 3050
-Wire Wire Line
-	4250 3050 4250 3100
-Connection ~ 4250 3100
-Wire Wire Line
-	4250 3100 4300 3100
+Text GLabel 4250 4850 0    28   Input ~ 0
+COL4ENTER
 $Comp
 L Diode:1N4148 D9
 U 1 1 5FFB0454
@@ -1531,16 +1488,11 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3850 3300 3850 3400
-Wire Wire Line
-	3850 3400 3800 3400
-Connection ~ 3850 3300
-Wire Wire Line
 	3700 5250 4250 5250
 Wire Wire Line
 	4300 4300 4300 4900
 Wire Wire Line
-	4050 4900 4300 4900
+	4050 4900 4250 4900
 Connection ~ 4300 4900
 Wire Wire Line
 	4300 4900 4300 5500
@@ -1551,4 +1503,116 @@ Wire Wire Line
 Connection ~ 4250 5250
 Wire Wire Line
 	4250 5250 4800 5250
+Wire Wire Line
+	4050 4300 4300 4300
+Wire Wire Line
+	3800 5200 3850 5200
+Wire Wire Line
+	3850 5200 3850 5100
+Connection ~ 3850 5100
+Wire Wire Line
+	4250 4850 4250 4900
+Connection ~ 4250 4900
+Wire Wire Line
+	4250 4900 4300 4900
+Wire Wire Line
+	4050 3100 4300 3100
+Wire Wire Line
+	3850 3900 3850 4000
+Wire Wire Line
+	3850 4000 3800 4000
+Wire Wire Line
+	3800 4000 3800 3950
+Connection ~ 3850 3900
+Wire Wire Line
+	4200 3650 4250 3650
+Wire Wire Line
+	4250 3650 4250 3700
+Connection ~ 4250 3700
+Wire Wire Line
+	4250 3700 4300 3700
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 602774ED
+P 3350 1200
+F 0 "#PWR0101" H 3350 1050 50  0001 C CNN
+F 1 "+3.3V" H 3365 1373 50  0000 C CNN
+F 2 "" H 3350 1200 50  0001 C CNN
+F 3 "" H 3350 1200 50  0001 C CNN
+	1    3350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 60277CF8
+P 3600 1200
+F 0 "#PWR0102" H 3600 1050 50  0001 C CNN
+F 1 "+3.3V" H 3615 1373 50  0000 C CNN
+F 2 "" H 3600 1200 50  0001 C CNN
+F 3 "" H 3600 1200 50  0001 C CNN
+	1    3600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Boards:SPARKFUN_PRO_MICRO B1
+U 1 1 6016D8A9
+P 9450 3350
+F 0 "B1" H 9450 4260 45  0000 C CNN
+F 1 "SPARKFUN_PRO_MICRO" H 9450 4176 45  0000 C CNN
+F 2 "SPARKFUN_PRO_MICRO" H 9450 4150 20  0001 C CNN
+F 3 "" H 9450 3350 50  0001 C CNN
+F 4 "XXX-00000" H 9450 4081 60  0000 C CNN "Field4"
+	1    9450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2900 10000 2900
+Wire Wire Line
+	10000 2900 10000 2950
+Wire Wire Line
+	9000 3100 8900 3100
+Wire Wire Line
+	8900 3100 8900 3150
+Wire Wire Line
+	9000 3000 8900 3000
+Wire Wire Line
+	8900 3000 8900 3100
+Connection ~ 8900 3100
+$Comp
+L power:GND #PWR?
+U 1 1 601AEF13
+P 8900 3150
+F 0 "#PWR?" H 8900 2900 50  0001 C CNN
+F 1 "GND" H 8905 2977 50  0000 C CNN
+F 2 "" H 8900 3150 50  0001 C CNN
+F 3 "" H 8900 3150 50  0001 C CNN
+	1    8900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601AF2A1
+P 10000 2950
+F 0 "#PWR?" H 10000 2700 50  0001 C CNN
+F 1 "GND" H 10000 2950 50  0000 C CNN
+F 2 "" H 10000 2950 50  0001 C CNN
+F 3 "" H 10000 2950 50  0001 C CNN
+	1    10000 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3100 10150 3100
+Wire Wire Line
+	10150 3100 10150 3050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 601CC952
+P 10150 3050
+F 0 "#PWR?" H 10150 2900 50  0001 C CNN
+F 1 "+3.3V" H 10165 3223 50  0000 C CNN
+F 2 "" H 10150 3050 50  0001 C CNN
+F 3 "" H 10150 3050 50  0001 C CNN
+	1    10150 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
