@@ -20,9 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID 0x6A6A
-#define PRODUCT_ID 0x4810
-#define DEVICE_VER 0x0001
+#define VENDOR_ID 0xFEED
+#define PRODUCT_ID 0x9230
+#define DEVICE_VER 0x0002
 #define MANUFACTURER Osku Väyrynen
 #define PRODUCT OsseyPad
 #define DESCRIPTION Num Pad with Macro keys and Encoder
@@ -42,9 +42,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 #define MATRIX_ROW_PINS \
-    { D4, B6, B5, B4, D7, D6 }
+    { D0, B1, F7, F6, F5, F4 }
 #define MATRIX_COL_PINS \
-    { F0, F7, F6, F5, F4, F1 }
+    { B6, B4, E6, D7, C6, D4 }
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
@@ -55,9 +55,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* ENCODER THINGS */
 // #define ENCODER_DIRECTION_FLIP
 #define ENCODERS_PAD_A \
-    { D3 }
+    { D1 }
 #define ENCODERS_PAD_B \
-    { D5 }
+    { B5 }
 
 /* Tap Dance timing */
 #define TAPPING_TERM 200
