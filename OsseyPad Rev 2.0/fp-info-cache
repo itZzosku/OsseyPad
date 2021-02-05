@@ -1,4 +1,4 @@
-21114545604100002
+21116158079837665
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -65568,6 +65568,13 @@ HelloToHorse
 0
 0
 0
+OsseyPad
+SPARKFUN_PRO_MICRO_OsseyPad
+SPARKFUN PRO MICO FOOTPRINT (WITH USB CONNECTOR)
+SPARKFUN PRO MICO FOOTPRINT (WITH USB CONNECTOR)
+0
+48
+24
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
