@@ -85,7 +85,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
+        "silk_over_copper": "ignore",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
         "too_many_vias": "error",
@@ -391,7 +391,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../OsseyPad Case/OsseyPad_PCB/OsseyPad.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -427,7 +427,7 @@
   },
   "sheets": [
     [
-      "3565ed88-6d47-42e1-9f2f-fa0f43d1256a",
+      "8aa4753a-8117-4549-9b4f-3f54d8587b0f",
       ""
     ]
   ],
