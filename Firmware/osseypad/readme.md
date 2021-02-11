@@ -1,10 +1,12 @@
 # OsseyPad
 
-OsseyPad is a num pad with an 14 macro keys and a rotary encoders. 
+![OsseyPad](TODO)
+
+OsseyPad is a macro pad with an 34 macro keys or numpad with 14 macro keys also it has a rotary encoders.  
 
 For more information regarding the keyboard, please visit the [GitHub Repo](https://https://github.com/itZzosku/OsseyPad).
 
-* Keyboard Maintainer: [Osku Väyrynen](https://github.com/i)
+* Keyboard Maintainer: [Osku Väyrynen](https://github.com/itZzosku)
 * Hardware Supported: OsseyPad PCB (atmega32u4)
 * Hardware Availability: [Osku Väyrynen](TODO)
 

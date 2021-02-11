@@ -26,19 +26,19 @@
  * The second converts the arguments into a two-dimensional array which
  * represents the switch matrix.
  */
-#define LAYOUT( \
-	     k01, k02, k03, k04, k05, \
-    k10, k11, k12, k13, k14, k15, \
-    k20, k21, k22, k23, k24, k25, \
-    k30, k31, k32, k33, k34, k35, \
-    k40, k41, k42, k43, k44, k45, \
-	k50, k51, k52, k53, k54, k55  \
+#define LAYOUT_osseypad( \
+	     K01, K02, K03, K04, K05, \
+    K10, K11, K12, K13, K14, K15, \
+    K20, K21, K22, K23, K24, K25, \
+    K30, K31, K32, K33, K34, K35, \
+    K40, K41, K42, K43, K44, K45, \
+	K50, K51, K52, K53, K54, K55  \
 ) { \
-    { ___, k01, k02, k03, k04, k05, }, \
-    { k10, k11, k12, k13, k14, k15, }, \
-    { k20, k21, k22, k23, k24, k25, }, \
-    { k30, k31, k32, k33, k34, k35, }, \
-    { k40, k41, k42, k43, k44, k45, }, \
-	{ k50, k51, k52, k53, k54, k55, }  \
+    { ___, K01, K02, K03, K04, K05, }, \
+    { K10, K11, K12, K13, K14, K15, }, \
+    { K20, K21, K22, K23, K24, K25, }, \
+    { K30, K31, K32, K33, K34, K35, }, \
+    { K40, K41, K42, K43, K44, K45, }, \
+	{ K50, K51, K52, K53, K54, K55, }  \
 }
 
